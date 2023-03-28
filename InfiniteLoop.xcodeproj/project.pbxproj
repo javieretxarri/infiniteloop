@@ -11,6 +11,10 @@
 		F9189E8329D2EB0000A75153 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9189E8229D2EB0000A75153 /* ContentView.swift */; };
 		F9189E8529D2EB0100A75153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9189E8429D2EB0100A75153 /* Assets.xcassets */; };
 		F9189E8829D2EB0100A75153 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9189E8729D2EB0100A75153 /* Preview Assets.xcassets */; };
+		F9189E9029D2EB4400A75153 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9189E8F29D2EB4400A75153 /* Home.swift */; };
+		F9189E9429D2EBFE00A75153 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9189E9329D2EBFE00A75153 /* Page.swift */; };
+		F9189E9729D2F21500A75153 /* OffsetReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9189E9629D2F21500A75153 /* OffsetReader.swift */; };
+		F9189E9929D2F71B00A75153 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9189E9829D2F71B00A75153 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F9189E8229D2EB0000A75153 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9189E8429D2EB0100A75153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9189E8729D2EB0100A75153 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9189E8F29D2EB4400A75153 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F9189E9329D2EBFE00A75153 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		F9189E9629D2F21500A75153 /* OffsetReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetReader.swift; sourceTree = "<group>"; };
+		F9189E9829D2F71B00A75153 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		F9189E7F29D2EB0000A75153 /* InfiniteLoop */ = {
 			isa = PBXGroup;
 			children = (
+				F9189E9529D2F1F900A75153 /* Helpers */,
+				F9189E9229D2EBE700A75153 /* Model */,
+				F9189E8E29D2EB3A00A75153 /* View */,
 				F9189E8029D2EB0000A75153 /* InfiniteLoopApp.swift */,
 				F9189E8229D2EB0000A75153 /* ContentView.swift */,
 				F9189E8429D2EB0100A75153 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				F9189E8729D2EB0100A75153 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9189E8E29D2EB3A00A75153 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9189E8F29D2EB4400A75153 /* Home.swift */,
+				F9189E9829D2F71B00A75153 /* PageControl.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F9189E9229D2EBE700A75153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9189E9329D2EBFE00A75153 /* Page.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F9189E9529D2F1F900A75153 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F9189E9629D2F21500A75153 /* OffsetReader.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9189E8329D2EB0000A75153 /* ContentView.swift in Sources */,
+				F9189E9729D2F21500A75153 /* OffsetReader.swift in Sources */,
+				F9189E9929D2F71B00A75153 /* PageControl.swift in Sources */,
+				F9189E9029D2EB4400A75153 /* Home.swift in Sources */,
+				F9189E9429D2EBFE00A75153 /* Page.swift in Sources */,
 				F9189E8129D2EB0000A75153 /* InfiniteLoopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
